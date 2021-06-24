@@ -1,0 +1,8 @@
+{
+    "severity": "Error",
+    "service_name": "SREManualAction",
+    "cluster_uuid": "${CLUSTER_UUID}",
+    "summary": "Address Security Context Constraint configuration",
+    "description": "Your cluster requires you to take action because there has been a change to the cluster's 'restricted' Security Context Constraint that is impacting cluster operations and its ability to upgrade successfully: 'runAsUser changed from MustRunAsRange to RunAsAny'. Please address this by 'reverting runAsUser configuration in the SCC and assigning anyuid to workloads you wish to run as RunAsAny'. If you require assistance, please file a support request.",
+    "internal_only": false
+}
